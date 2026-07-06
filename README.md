@@ -62,7 +62,7 @@ LemonCart/
 
 ## Project Author
 
-**Name:** Anmol Patni
+**Name:** Anmol Patni,sanidhya agarwal
 
 **College:** ABES Institute of Technology (ABESIT)
 
