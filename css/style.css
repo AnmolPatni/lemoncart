@@ -401,8 +401,59 @@ nav ul li a:hover{
     color:#555;
 
 }
+/*========== PROMOTIONAL BANNERS ==========*/
 
+.banners{
 
+    padding:70px 0;
+
+}
+
+.banner-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.banner{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+}
+
+.banner img{
+
+    width:100%;
+
+    display:block;
+
+    transition:.4s;
+
+}
+
+.banner img:hover{
+
+    transform:scale(1.03);
+
+}
+
+@media(max-width:768px){
+
+.banner-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
 /*========== FORMS ==========*/
 
 form{
